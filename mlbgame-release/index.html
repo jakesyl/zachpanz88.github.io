@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+<meta charset="utf-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="alternate" href="http://panzarino.me" hreflang="en">
+<link href="http://gmpg.org/xfn/11" rel="profile">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="theme-color" content="#005344">
+<title> mlbgame Release | Zach Panzarino</title>
+<meta name="description" content="A Python API to retrieve and read MLB GameDay XML data">
+<meta name="keywords" content="mlbgame, python, mlb">
+<!-- Social: Facebook / Open Graph -->
+<meta property="og:url" content="http://panzarino.me/mlbgame-release/">
+<meta property="og:title" content=" mlbgame Release | Zach Panzarino">
+<meta property="og:description" content="A Python API to retrieve and read MLB GameDay XML data">
+<meta property="og:site_name" content="Zach Panzarino">
+<meta property="og:locale" content="en">
+<meta property="og:type" content="website">
+<meta property="og:author" content="">
+<meta property="og:image" content="http://panzarino.me/assets/images/header-cover.png">
+<!-- Social: Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@nandomoreirame">
+<meta name="twitter:domain" content="http://panzarino.me">
+<meta name="twitter:title" content=" mlbgame Release | Zach Panzarino">
+<meta name="twitter:description" content="A Python API to retrieve and read MLB GameDay XML data">
+<meta name="twitter:image:src" content="http://panzarino.me/assets/images/header-cover.png">
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="114x114" href="http://panzarino.me/assets/ico/apple-touch-icon-114-f254ff05fa5744ae2094fb57b9a9a381.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://panzarino.me/assets/ico/apple-touch-icon-72-436a9ab2586993a23e0490a3f8ebd0ab.png">
+<link rel="apple-touch-icon" href="http://panzarino.me/assets/ico/apple-touch-icon-57-7dd9412ab8ac12482b5beae2763e7691.png">
+<link rel="shortcut icon" href="http://panzarino.me/assets/ico/favicon-5f3098c72d28d48b62fd7dab54f7846d.png">
+<!-- rel prev and next -->
+<!-- Canonical link tag -->
+<link rel="canonical" href="http://panzarino.me/mlbgame-release/">
+<link rel="alternate" type="application/rss+xml" title="Zach Panzarino" href="http://panzarino.me/feed.xml">
+<link rel="stylesheet" href="/assets/main-e03fd29918e6a55fb4e40f4e044772fc.css">
+<script src="/assets/modernizr-custom-cb807611a3e262b2eac59444cbab74d6.js" data-cfasync="false"></script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Website",
+  "publisher": "panzarino.me",
+  "url": "http://panzarino.me/",
+  "description": "Zach's Code Website"
+}
+</script>
+<script type="text/javascript">
+  var disqus_shortname = 'zachpanz88',
+      baseurl          = '';
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-71221773-1', 'auto');
+  ga('send', 'pageview');
+</script>
+  </head>
+  <body class="post-template single">
+    <header class="header">
+  <div class="container">
+    <h1><a href="/">Zach <strong>Panzarino</strong></a></h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#!" data-modal="modalSearch"><i class="fa fa-search"></i></a></li>
+        <li><a href="/feed.xml" target="_blank"><i class="fa fa-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <main class="wrapper container" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+      <article class="post" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+  <header class="post-header">
+    <h1>mlbgame Release</h1>
+    <div class="post-meta">
+      <time datetime="2015-10-13">
+        <i class="fa fa-calendar-o"></i> <time datetime="2016-02-05"> 2016-02-05
+      </time>
+      <span>
+        <i class="fa fa-comments"></i> <a href="/mlbgame-release/#disqus_thread" data-disqus-identifier="/mlbgame-release">Leave a comment</a>
+      </span>
+      <span>
+        <i class="fa fa-folder-open-o"></i> <a href="/category/python/">Python</a>
+      </span>
+    </div>
+  </header>
+  <p>I have finally released the first official version of mlbgame, which is a python API that returns MLB game information.</p>
+<p>I started development on this project in early November, and finally released it about a week ago. 
+As of writing this, the current version is 1.0.3, with a few bug fixes from the initial release (one of which I discovered while writing this article).</p>
+<p>The full source code can be accessed on <a href="https://github.com/zachpanz88/mlbgame">GitHub</a> (leave a star), 
+with new developments being worked on in the <a href="https://github.com/zachpanz88/mlbgame/tree/dev"><code>dev</code></a> branch.</p>
+<p>The full documentation for mlbgame is available <a href="http://panzarino.me/mlbgame/">here</a>.</p>
+<p>I was inspired to create this project becuase I realized that there is not really a good API for accessing MLB data. 
+I was also inspired by <a href="https://github.com/BurntSushi/nflgame">nflgame</a>, a similar project that retrieves NFL data. 
+Many of the functions in this project originated from similar functions in nflgame. 
+(The source code for a cool website I made using nflgame can be accessed <a href="https://github.com/zachpanz88/fantasy-football">here</a>)</p>
+<p>mlbgame is listed in the <a href="https://pypi.python.org/pypi/mlbgame/">Python Package Index (PyPI)</a> and therefore can be installed with <code>pip</code> 
+(you will probably have to run it with <code>sudo</code>).</p>
+<div class="highlight"><pre><code class="language-console" data-lang="console"><span class="gp">$</span> pip install mlbgame</code></pre></div>
+<p>Here is an example of how to use mlbgame.</p>
+<p>A full source file of this example is available <a href="https://gist.github.com/zachpanz88/978b0e6b7d00950ad415">here</a>.</p>
+<p>Obviously, you have to start by importing the package. 
+Only the main module is needed to access most functionality. 
+Additional stats information is available in <a href="https://github.com/zachpanz88/mlbgame/blob/master/mlbgame/statmap.py"><code>statmap.py</code></a>.</p>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">mlbgame</span></code></pre></div>
+<p>For this example, we will be working with a single Mets (my favorite team) game from this season (2015) on August 10. 
+To start, we use the <code>day</code> function to get the data from a single day (use the <code>games</code> function to get games from multiple days). 
+Because this function returns a list of games due to multiple games occurring on the same day, we must only select the first game in the list, becuase that is the game that we want 
+(with the way we use the <code>day</code> function there will only be one game in the list). 
+So, we know the team and the date of the game, but we do not know if that team was home or away. 
+Instead of having to find out this information, we can set both home and away to “Mets”, and mlbgame will find a game where the Mets are either home or away. 
+Knowing all this, we need to retrieve the game object:</p>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">game</span> <span class="o">=</span> <span class="n">mlbgame</span><span class="o">.</span><span class="n">day</span><span class="p">(</span><span class="mi">2015</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">home</span><span class="o">=</span><span class="s">&quot;Mets&quot;</span><span class="p">,</span> <span class="n">away</span><span class="o">=</span><span class="s">&quot;Mets&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span></code></pre></div>
+<p>We can simply <code>print game</code> to get a quick score report for the game, which looks like this:</p>
+<div class="highlight"><pre><code class="language-console" data-lang="console"><span class="go">Rockies (2) at Mets (4)</span></code></pre></div>
+<p>Well that’s great, we now have the score, but it really isn’t too much information. 
+Say we want to find out how the Mets pitchers did in that game. 
+This is where we have to use <code>player_stats</code> function, becuase we want the stats for the individual players in the game (as opposed to the <code>team_stats</code> function).
+The <code>player_stats</code> function only needs the id of the game to get all the stats for that game.
+Once we get these stats, we can loop through and print out the Mets pitcher stats (we know the Mets are home because of the above output).</p>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">stats</span> <span class="o">=</span> <span class="n">mlbgame</span><span class="o">.</span><span class="n">player_stats</span><span class="p">(</span><span class="n">game</span><span class="o">.</span><span class="n">game_id</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">player</span> <span class="ow">in</span> <span class="n">stats</span><span class="p">[</span><span class="s">&#39;home_pitching&#39;</span><span class="p">]:</span>
+    <span class="k">print</span> <span class="n">player</span></code></pre></div>
+<p>And the output is:</p>
+<div class="highlight"><pre><code class="language-console" data-lang="console"><span class="go">Jon Niese - 2 Earned Runs, 5 Strikouts, 6 Hits</span>
+<span class="go">Tyler Clippard - 0 Earned Runs, 0 Strikouts, 0 Hits</span>
+<span class="go">Jeurys Familia - 0 Earned Runs, 2 Strikouts, 0 Hits</span></code></pre></div>
+<p>Of course those are just a few important stats, with many more available stats which you can check out in <a href="https://github.com/zachpanz88/mlbgame/blob/master/mlbgame/statmap.py"><code>statmap.py</code></a>.</p>
+<p>Looks like the pitching did fairly well that game, but how was the hitting? 
+Lets loop through the hitters and print out their basic stats:</p>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">for</span> <span class="n">player</span> <span class="ow">in</span> <span class="n">stats</span><span class="p">[</span><span class="s">&#39;home_batting&#39;</span><span class="p">]:</span>
+    <span class="k">print</span> <span class="n">player</span></code></pre></div>
+<p>And the output is (notice the players are in order of which they first appeared at the plate):</p>
+<div class="highlight"><pre><code class="language-console" data-lang="console"><span class="go">Curtis Granderson - 0 for 3 with 1 RBI</span>
+<span class="go">Daniel Murphy - 1 for 4 with 2 RBI</span>
+<span class="go">Yoenis Cespedes - 0 for 4</span>
+<span class="go">Lucas Duda - 1 for 4</span>
+<span class="go">Kelly Johnson - 0 for 4</span>
+<span class="go">Travis d&#39;Arnaud - 2 for 4 with 1 RBI and 1 Home Runs</span>
+<span class="go">Michael Conforto - 0 for 3</span>
+<span class="go">Jeurys Familia - 0 for 0</span>
+<span class="go">Jon Niese - 0 for 1</span>
+<span class="go">Juan Uribe - 0 for 1</span>
+<span class="go">Tyler Clippard - 0 for 0</span>
+<span class="go">Juan Lagares - 0 for 0</span>
+<span class="go">Ruben Tejada - 0 for 1</span></code></pre></div>
+<p>This was a quick little example of how to use mlbgame, but there is so much more that the package can do. 
+Check out the <a href="http://zachpanz88.github.io/mlbgame/">full documentation</a> for more examples and usage information, 
+and make sure to drop by the <a href="https://github.com/zachpanz88/mlbgame">GitHub repo</a>. 
+If you find any issues or bugs in the project, please report them <a href="https://github.com/zachpanz88/mlbgame/issues/new">here</a>. 
+I hope that mlbgame can be useful to you in some way, and I appreciate all users of the package.</p>
+  <footer class="post-footer">
+    <section class="author">
+      <h4>Zach Panzarino</h4>
+      <p>Full Stack Developer and Student</p>
+      <br>
+    </section>
+    <aside class="share">
+  <h4>Share</h4>
+  <a href="http://twitter.com/share?text=mlbgame Release&amp;url=http://panzarino.me/mlbgame-release/&amp;hashtags=web,dev"
+  onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+    <i class="fa fa-twitter-square"></i>
+  </a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://panzarino.me/mlbgame-release/"
+  onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+    <i class="fa fa-facebook-square"></i>
+  </a>
+</aside>
+      <hr>
+<aside id="comments" class="disqus">
+  <h3 class="txt-center"><i class="fa fa-comments"></i> Comments</h3>
+  <hr>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_identifier = '/mlbgame-release';
+    var disqus_title = 'mlbgame Release';
+    var disqus_url = 'http://panzarino.me/mlbgame-release/';
+    /*var disqus_developer = 1;*/
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+  </noscript>
+</aside>
+  </footer>
+</article>
+    </main>
+<footer class="footer">
+  <div class="container">
+    <ul class="icons">
+      <li>
+        <a href="http://github.com/zachpanz88" class="icon-github" target="_blank">
+          <i class="fa fa-github"></i>
+        </a>
+      </li>
+      <!--
+      <li>
+        <a href="" class="icon-facebook" target="_blank">
+          <i class="fa fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="" class="icon-twitter" target="_blank">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="" class="icon-instagram" target="_blank">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="" class="icon-linkedin" target="_blank">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </li>
+    -->
+    </ul>
+    <!--
+    <p>
+      <q>I have no special talent. I am only passionately curious.</q>
+      <small>– Albert Einstein</small>
+    </p>
+    -->
+    <small class="clearfix">
+      Made With <a href="http://jekyllrb.com" target="_blank">Jekyll</a> • <a href="https://github.com/zachpanz88/zachpanz88.github.io" target="_blank">Open Source</i></a>
+    </small>
+  </div>
+</footer>
+<a class="scroll-up fa fa-chevron-up" href="#" data-position="0"></a>
+<div id="modalSearch" class="modal">
+  <div class="modal__overlay"></div>
+  <div class="modal__content">
+    <a href="#!" class="modal-close" data-modal-close>&times;</a>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search in 2 articles">
+      <ul id="results-container"></ul>
+    </div>
+  </div>
+</div>
+    <script src="/assets/main-52d417e8a6ff9f5b168386d37c96338a.js"></script>
+  </body>
+</html>

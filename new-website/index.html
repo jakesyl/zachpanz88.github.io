@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+<meta charset="utf-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="alternate" href="http://panzarino.me" hreflang="en">
+<link href="http://gmpg.org/xfn/11" rel="profile">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="theme-color" content="#005344">
+<title> New Website | Zach Panzarino</title>
+<meta name="description" content="Basics of how the new website works">
+<meta name="keywords" content="website, site">
+<!-- Social: Facebook / Open Graph -->
+<meta property="og:url" content="http://panzarino.me/new-website/">
+<meta property="og:title" content=" New Website | Zach Panzarino">
+<meta property="og:description" content="Basics of how the new website works">
+<meta property="og:site_name" content="Zach Panzarino">
+<meta property="og:locale" content="en">
+<meta property="og:type" content="website">
+<meta property="og:author" content="">
+<meta property="og:image" content="http://panzarino.me/assets/images/header-cover.png">
+<!-- Social: Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@nandomoreirame">
+<meta name="twitter:domain" content="http://panzarino.me">
+<meta name="twitter:title" content=" New Website | Zach Panzarino">
+<meta name="twitter:description" content="Basics of how the new website works">
+<meta name="twitter:image:src" content="http://panzarino.me/assets/images/header-cover.png">
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="114x114" href="http://panzarino.me/assets/ico/apple-touch-icon-114-f254ff05fa5744ae2094fb57b9a9a381.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://panzarino.me/assets/ico/apple-touch-icon-72-436a9ab2586993a23e0490a3f8ebd0ab.png">
+<link rel="apple-touch-icon" href="http://panzarino.me/assets/ico/apple-touch-icon-57-7dd9412ab8ac12482b5beae2763e7691.png">
+<link rel="shortcut icon" href="http://panzarino.me/assets/ico/favicon-5f3098c72d28d48b62fd7dab54f7846d.png">
+<!-- rel prev and next -->
+<!-- Canonical link tag -->
+<link rel="canonical" href="http://panzarino.me/new-website/">
+<link rel="alternate" type="application/rss+xml" title="Zach Panzarino" href="http://panzarino.me/feed.xml">
+<link rel="stylesheet" href="/assets/main-e03fd29918e6a55fb4e40f4e044772fc.css">
+<script src="/assets/modernizr-custom-cb807611a3e262b2eac59444cbab74d6.js" data-cfasync="false"></script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Website",
+  "publisher": "panzarino.me",
+  "url": "http://panzarino.me/",
+  "description": "Zach's Code Website"
+}
+</script>
+<script type="text/javascript">
+  var disqus_shortname = 'zachpanz88',
+      baseurl          = '';
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-71221773-1', 'auto');
+  ga('send', 'pageview');
+</script>
+  </head>
+  <body class="post-template single">
+    <header class="header">
+  <div class="container">
+    <h1><a href="/">Zach <strong>Panzarino</strong></a></h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#!" data-modal="modalSearch"><i class="fa fa-search"></i></a></li>
+        <li><a href="/feed.xml" target="_blank"><i class="fa fa-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+    <main class="wrapper container" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+      <article class="post" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+  <header class="post-header">
+    <h1>New Website</h1>
+    <div class="post-meta">
+      <time datetime="2015-10-13">
+        <i class="fa fa-calendar-o"></i> <time datetime="2015-12-09"> 2015-12-09
+      </time>
+      <span>
+        <i class="fa fa-comments"></i> <a href="/new-website/#disqus_thread" data-disqus-identifier="/new-website">Leave a comment</a>
+      </span>
+      <span>
+        <i class="fa fa-folder-open-o"></i> <a href="/category/general/">General</a>
+      </span>
+    </div>
+  </header>
+  <p>So I just set up this new website with a new theme, which is hosted on <a href="https://github.com/zachpanz88/zachpanz88.github.io">GitHub</a>.</p>
+<p>However, becuase GitHub does not allow custom plugins for Jekyll, I have to do a little bit of extra work than just uploading the Jekyll files to the repository.</p>
+<p>The code that I use to generate the website code is stored in the <a href="https://github.com/zachpanz88/zachpanz88.github.io/tree/source"><code>source</code></a> branch of the repository (currently default branch).</p>
+<p>GitHub uses the <code>master</code> branch of a repository to publish to a website, so I have to generate the html files on my own before I upload them.</p>
+<p>This is the basic process for every update to the site:</p>
+<p>First, I commit all the files to the <code>source</code> branch so they are stored on GitHub:</p>
+<div class="highlight"><pre><code class="language-console" data-lang="console"><span class="gp">$</span> git add .
+<span class="gp">$</span> git commit -a -m <span class="s2">&quot;New update&quot;</span>
+<span class="gp">$</span> git push origin <span class="nb">source</span></code></pre></div>
+<p>Next, I run the script that updates the website itself (on the <code>master</code> branch):</p>
+<div class="highlight"><pre><code class="language-console" data-lang="console"><span class="gp">$</span> rake publish</code></pre></div>
+<p>This is what the relevant part of the <a href="https://github.com/zachpanz88/zachpanz88.github.io/blob/source/Rakefile"><code>Rakefile</code></a> looks like. 
+First, it builds the website with Jekyll in the <code>_site</code> directory. It then <code>cd</code>’s into the <code>_site</code> directory. 
+To push the files to GitHub, it initializes a repository and sets the remote to match my website repository. 
+It changes to the master branch using <code>--orphan</code>, meaning that there will be no history.
+The program then commits the files and pushes them to the repository, using <code>--force</code>, so previous commits are overwritten. 
+The only commit that resides in the <a href="https://github.com/zachpanz88/zachpanz88.github.io/tree/master"><code>master</code></a> branch is the last time the site was updated, which is stated in the commit message.</p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># encoding: UTF-8</span>
+<span class="nb">require</span> <span class="s2">&quot;rubygems&quot;</span>
+<span class="nb">require</span> <span class="s2">&quot;tmpdir&quot;</span>
+<span class="nb">require</span> <span class="s2">&quot;bundler/setup&quot;</span>
+<span class="nb">require</span> <span class="s2">&quot;jekyll&quot;</span>
+<span class="no">GITHUB_REPONAME</span> <span class="o">=</span> <span class="s2">&quot;zachpanz88/zachpanz88.github.io&quot;</span>
+<span class="no">GITHUB_REPO_BRANCH</span> <span class="o">=</span> <span class="s2">&quot;master&quot;</span>
+<span class="no">SOURCE</span> <span class="o">=</span> <span class="s2">&quot;source/&quot;</span>
+<span class="no">DEST</span>   <span class="o">=</span> <span class="s2">&quot;_site&quot;</span>
+<span class="no">CONFIG</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s1">&#39;layouts&#39;</span> <span class="o">=&gt;</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">SOURCE</span><span class="p">,</span> <span class="s2">&quot;_layouts&quot;</span><span class="p">),</span>
+  <span class="s1">&#39;posts&#39;</span> <span class="o">=&gt;</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">SOURCE</span><span class="p">,</span> <span class="s2">&quot;_posts&quot;</span><span class="p">),</span>
+  <span class="s1">&#39;post_ext&#39;</span> <span class="o">=&gt;</span> <span class="s2">&quot;md&quot;</span><span class="p">,</span>
+  <span class="s1">&#39;categories&#39;</span> <span class="o">=&gt;</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">SOURCE</span><span class="p">,</span> <span class="s2">&quot;categories&quot;</span><span class="p">),</span>
+  <span class="s1">&#39;tags&#39;</span> <span class="o">=&gt;</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">SOURCE</span><span class="p">,</span> <span class="s2">&quot;tags&quot;</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="n">task</span> <span class="ss">default</span><span class="p">:</span> <span class="sx">%w[publish]</span>
+<span class="n">desc</span> <span class="s2">&quot;Generate blog files&quot;</span>
+<span class="n">task</span> <span class="ss">:generate</span> <span class="k">do</span>
+  <span class="no">Jekyll</span><span class="o">::</span><span class="no">Site</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="no">Jekyll</span><span class="o">.</span><span class="n">configuration</span><span class="p">({</span>
+    <span class="s2">&quot;source&quot;</span>      <span class="o">=&gt;</span> <span class="s2">&quot;source/&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;destination&quot;</span> <span class="o">=&gt;</span> <span class="s2">&quot;_site&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;config&quot;</span>      <span class="o">=&gt;</span> <span class="s2">&quot;_config.yml&quot;</span>
+  <span class="p">}))</span><span class="o">.</span><span class="n">process</span>
+<span class="k">end</span>
+<span class="n">desc</span> <span class="s2">&quot;Generate and publish blog to gh-pages&quot;</span>
+<span class="n">task</span> <span class="ss">:publish</span> <span class="o">=&gt;</span> <span class="o">[</span><span class="ss">:generate</span><span class="o">]</span> <span class="k">do</span>
+  <span class="no">Dir</span><span class="o">.</span><span class="n">mktmpdir</span> <span class="k">do</span> <span class="o">|</span><span class="n">tmp</span><span class="o">|</span>
+    <span class="n">cp_r</span> <span class="s2">&quot;_site/.&quot;</span><span class="p">,</span> <span class="n">tmp</span>
+    <span class="n">pwd</span> <span class="o">=</span> <span class="no">Dir</span><span class="o">.</span><span class="n">pwd</span>
+    <span class="no">Dir</span><span class="o">.</span><span class="n">chdir</span> <span class="n">tmp</span>
+    <span class="nb">system</span> <span class="s2">&quot;git init&quot;</span>
+    <span class="nb">system</span> <span class="s2">&quot;git checkout --orphan </span><span class="si">#{</span><span class="no">GITHUB_REPO_BRANCH</span><span class="si">}</span><span class="s2">&quot;</span>
+    <span class="nb">system</span> <span class="s2">&quot;git add .&quot;</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="s2">&quot;Site updated at </span><span class="si">#{</span><span class="no">Time</span><span class="o">.</span><span class="n">now</span><span class="o">.</span><span class="n">utc</span><span class="si">}</span><span class="s2">&quot;</span>
+    <span class="nb">system</span> <span class="s2">&quot;git commit -am </span><span class="si">#{</span><span class="n">message</span><span class="o">.</span><span class="n">inspect</span><span class="si">}</span><span class="s2">&quot;</span>
+    <span class="nb">system</span> <span class="s2">&quot;git remote add origin git@github.com:</span><span class="si">#{</span><span class="no">GITHUB_REPONAME</span><span class="si">}</span><span class="s2">.git&quot;</span>
+    <span class="nb">system</span> <span class="s2">&quot;git push origin </span><span class="si">#{</span><span class="no">GITHUB_REPO_BRANCH</span><span class="si">}</span><span class="s2"> --force&quot;</span>
+    <span class="no">Dir</span><span class="o">.</span><span class="n">chdir</span> <span class="n">pwd</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></div>
+<p>So essentially thats all I have to do after making a change to the website, but it is pretty annoying becuase I can’t publish posts from the GitHub web interface.</p>
+<p>Knowing that I would have to type these commands over and over, I made a shell script <a href="https://github.com/zachpanz88/zachpanz88.github.io/blob/source/update.sh"><code>update.sh</code></a>:</p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/bash -e</span>
+<span class="c"># commit data</span>
+<span class="nb">read</span> -p <span class="s1">&#39;Commit message: &#39;</span> message
+git add . -A
+git commit -m <span class="s2">&quot;$message&quot;</span>
+git push origin <span class="nb">source</span>
+<span class="c"># update website</span>
+rake publish</code></pre></div>
+<p>Well, I guess that’s all there really is to it.</p>
+  <footer class="post-footer">
+    <section class="author">
+      <h4>Zach Panzarino</h4>
+      <p>Full Stack Developer and Student</p>
+      <br>
+    </section>
+    <aside class="share">
+  <h4>Share</h4>
+  <a href="http://twitter.com/share?text=New Website&amp;url=http://panzarino.me/new-website/&amp;hashtags=web,dev"
+  onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+    <i class="fa fa-twitter-square"></i>
+  </a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://panzarino.me/new-website/"
+  onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+    <i class="fa fa-facebook-square"></i>
+  </a>
+</aside>
+      <hr>
+<aside id="comments" class="disqus">
+  <h3 class="txt-center"><i class="fa fa-comments"></i> Comments</h3>
+  <hr>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_identifier = '/new-website';
+    var disqus_title = 'New Website';
+    var disqus_url = 'http://panzarino.me/new-website/';
+    /*var disqus_developer = 1;*/
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+  </noscript>
+</aside>
+  </footer>
+</article>
+    </main>
+<footer class="footer">
+  <div class="container">
+    <ul class="icons">
+      <li>
+        <a href="http://github.com/zachpanz88" class="icon-github" target="_blank">
+          <i class="fa fa-github"></i>
+        </a>
+      </li>
+      <!--
+      <li>
+        <a href="" class="icon-facebook" target="_blank">
+          <i class="fa fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="" class="icon-twitter" target="_blank">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="" class="icon-instagram" target="_blank">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="" class="icon-linkedin" target="_blank">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </li>
+    -->
+    </ul>
+    <!--
+    <p>
+      <q>I have no special talent. I am only passionately curious.</q>
+      <small>– Albert Einstein</small>
+    </p>
+    -->
+    <small class="clearfix">
+      Made With <a href="http://jekyllrb.com" target="_blank">Jekyll</a> • <a href="https://github.com/zachpanz88/zachpanz88.github.io" target="_blank">Open Source</i></a>
+    </small>
+  </div>
+</footer>
+<a class="scroll-up fa fa-chevron-up" href="#" data-position="0"></a>
+<div id="modalSearch" class="modal">
+  <div class="modal__overlay"></div>
+  <div class="modal__content">
+    <a href="#!" class="modal-close" data-modal-close>&times;</a>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search in 2 articles">
+      <ul id="results-container"></ul>
+    </div>
+  </div>
+</div>
+    <script src="/assets/main-52d417e8a6ff9f5b168386d37c96338a.js"></script>
+  </body>
+</html>

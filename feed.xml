@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zach&#39;s Code Website</title>
+    <description>Zach&#39;s Code Website</description>
+    <link>http://panzarino.me/</link>
+    <atom:link href="http://panzarino.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 05 Feb 2016 23:07:31 +0000</pubDate>
+    <lastBuildDate>Fri, 05 Feb 2016 23:07:31 +0000</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>mlbgame Release</title>
+        <description>&lt;p&gt;I have finally released the first official version of mlbgame, which is a python API that returns MLB game information.&lt;/p&gt; &lt;p&gt;I started development on this project in early November, and finally released it about a week ago. As of writing this, the current version is 1.0.3, with a few bug fixes from the initial release (one of which I discovered while writing this article).&lt;/p&gt; &lt;p&gt;The full source code can be accessed on &lt;a href=&quot;https://github.com/zachpanz88/mlbgame&quot;&gt;GitHub&lt;/a&gt; (leave a star), with new developments being worked on in the &lt;a href=&quot;https://github.com/zachpanz88/mlbgame/tree/dev&quot;&gt;&lt;code&gt;dev&lt;/code&gt;&lt;/a&gt; branch.&lt;/p&gt; &lt;p&gt;The full documentation for mlbgame is available &lt;a href=&quot;http://panzarino.me/mlbgame/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;I was inspired...</description>
+        <pubDate>Fri, 05 Feb 2016 22:00:00 +0000</pubDate>
+        <link>http://panzarino.me/mlbgame-release/</link>
+        <guid isPermaLink="true">http://panzarino.me/mlbgame-release/</guid>
+        
+        <category>python</category>
+        
+        <category>github</category>
+        
+        
+        <category>python</category>
+        
+      </item>
+    
+      <item>
+        <title>New Website</title>
+        <description>&lt;p&gt;So I just set up this new website with a new theme, which is hosted on &lt;a href=&quot;https://github.com/zachpanz88/zachpanz88.github.io&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;However, becuase GitHub does not allow custom plugins for Jekyll, I have to do a little bit of extra work than just uploading the Jekyll files to the repository.&lt;/p&gt; &lt;p&gt;The code that I use to generate the website code is stored in the &lt;a href=&quot;https://github.com/zachpanz88/zachpanz88.github.io/tree/source&quot;&gt;&lt;code&gt;source&lt;/code&gt;&lt;/a&gt; branch of the repository (currently default branch).&lt;/p&gt; &lt;p&gt;GitHub uses the &lt;code&gt;master&lt;/code&gt; branch of a repository to publish to a website, so I have to generate the html files on my own before I upload them.&lt;/p&gt; &lt;p&gt;This is...</description>
+        <pubDate>Wed, 09 Dec 2015 04:00:00 +0000</pubDate>
+        <link>http://panzarino.me/new-website/</link>
+        <guid isPermaLink="true">http://panzarino.me/new-website/</guid>
+        
+        <category>general</category>
+        
+        <category>website</category>
+        
+        <category>ruby</category>
+        
+        <category>shell</category>
+        
+        <category>github</category>
+        
+        
+        <category>general</category>
+        
+      </item>
+    
+  </channel>
+</rss>
